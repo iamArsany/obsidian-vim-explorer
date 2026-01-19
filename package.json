@@ -1,0 +1,21 @@
+{
+  "name": "obsidian-vim-explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild main.ts --bundle --external:obsidian --format=cjs --target=es2018 --platform=node --outfile=main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "esbuild": "^0.27.2",
+    "obsidian": "^1.11.4",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3"
+  }
+}

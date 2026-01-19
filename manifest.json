@@ -1,0 +1,9 @@
+{
+  "id": "vim-explorer-nav",
+  "name": "Vim Explorer Navigation",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Navigate file explorer with j, k, h, l",
+  "author": "Arsany Ashraf",
+  "isDesktopOnly": true
+}
